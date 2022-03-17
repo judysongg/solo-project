@@ -1,0 +1,52 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "creating a crud app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve",
+    "build": "webpack",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judysongg/solo-project.git"
+  },
+  "author": "judy song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/judysongg/solo-project/issues"
+  },
+  "homepage": "https://github.com/judysongg/solo-project#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "browserify-zlib": "^0.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "path-browserify": "^1.0.1",
+    "pg": "^8.7.3",
+    "pg-pool": "^3.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "url": "^0.11.0",
+    "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "nodemon": "^2.0.15",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

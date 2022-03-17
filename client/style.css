@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(252, 250, 251);
+}
+h1 {
+    color: rgb(206, 99, 117); 
+    display: flex; 
+    justify-content: end;
+    border-bottom: 3px solid rgb(187, 26, 114);
+}
+
+form{
+    display: flex; 
+    
+}
+
+input {
+    display: flex; 
+    justify-content: center; 
+   }
+   
+.input-text {
+    display: flex; 
+    justify-content: center;
+}
+
+.flex { 
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+
+
+.border-card {
+    border: 1px rgb(245, 185, 185) solid;
+}
+.bold {
+    font-weight: bold;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+#recipe-title {
+    height: 30px;
+    width: 180px;
+    border-radius: 8px;
+    background-color:white;
+    color: rgb(21, 31, 11);
+    border: 2px solid hsl(320, 22%, 62%); 
+}
+
+
+
+/* .input-box{
+    height: 30px;
+    width: 100px;
+} */
+
+#recipe-description{
+    height: 30px;
+    width: 800px;
+    border-radius: 8px;
+    background-color:white;
+    color: rgb(21, 31, 11);
+    border: 2px solid hsl(320, 22%, 62%); 
+}
+.flex-row {
+    flex-direction: row;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.z-5 {
+    z-index: 5;
+}
+
+.width-100 {
+    width: 100%;
+}
+.edit-box{
+    height: 30px;
+    width: 400px;
+}
+
+.center {
+    justify-content: flex-start;
+}
+.z-2 {
+    z-index: 2;
+}
+button{
+    border-radius: 8px;
+    background-color: rgb(212, 127, 142);
+    color: white;
+    border: 2px solid #b94593; 
+
+}
+
+.photo{
+    display: flex; 
+    justify-content: center;
+    height: 100px; 
+    width: 100px
+}
+
+h4{
+    display: flex; 
+    justify-content: center;
+    color: #992773;
+    font-size: 25px;
+}
