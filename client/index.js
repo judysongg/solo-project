@@ -12,7 +12,7 @@ class App extends Component {
         <div>
           <h1>Codesmith's Cookbook</h1>
           <div><img style={{
-              resizeMode: "contain",
+              resizeMode: "cover",
               height: 250,
               width: 250,
               marginLeft: 580, 

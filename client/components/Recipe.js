@@ -32,9 +32,9 @@ export default class Recipe extends Component {
         return (
             <div className="flex">
                 {this.state.isEditing && (
-                    <div className='flex width-100 box start flex-row border-card mb-10 space-between'>
-                        <input className="edit-box z-2" type="text" placeholder="title" onChange={(e) => this.handleChange(e, 'title')}></input>
-                        <input className="edit-box z-2" type="text" placeholder="description"  onChange={(e) => this.handleChange(e, 'description')} ></input>
+                    <div className='flex width-100 box start flex-row border-card mb-10 ' id = 'size'>
+                        <input className="edit-box z-2" type="text" placeholder="Dish" onChange={(e) => this.handleChange(e, 'title')}  id="recipe-title"></input>
+                        <input className="edit-box z-2" type="text" placeholder="Recipe"  onChange={(e) => this.handleChange(e, 'description')}  id="recipe-description"></input>
                         <div onClick={() => this.handleEditClick()}>
                             Save 
                         </div>

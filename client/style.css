@@ -28,11 +28,17 @@ input {
 }
 .flex-col {
     flex-direction: column;
+    color:rgb(68, 18, 45); 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 19px;
 }
 
 
 .border-card {
     border: 1px rgb(245, 185, 185) solid;
+    height: 90px; 
+    border-radius: 8px;
+    
 }
 .bold {
     font-weight: bold;
@@ -104,9 +110,9 @@ button{
 
 .photo{
     display: flex; 
-    justify-content: center;
-    height: 100px; 
-    width: 100px
+    justify-content: center; 
+    /* height: 100px; 
+    width: 100px  */
 }
 
 h4{
@@ -114,4 +120,9 @@ h4{
     justify-content: center;
     color: #992773;
     font-size: 25px;
+}
+
+#size {
+    display: flex; 
+    justify-content: center;
 }

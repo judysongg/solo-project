@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import newTextBox from './newTextBox';
-import style from '../style.css'; 
+// import style from '../style.css'; 
 import { RecipeList } from './RecipeList'
 import axios from 'axios'
 
@@ -87,8 +87,8 @@ class MainContainer extends Component {
           <div>
             <RecipeList handleDelete={this.handleDelete} handleEdit={this.handleEdit}recipeList={this.state.recipeList} />
             <form className = 'input-text' onSubmit={(e) => this.createRecipe(e)}>
-              <input className="edit-box z-2" type="text" placeholder="title" onChange={(e) => this.handleChange(e, 'title')} id="recipe-title"></input>
-              <input className="edit-box z-2" type="text" placeholder="description" onChange={(e) => this.handleChange(e, 'description')} id="recipe-description"></input>
+              <input className="edit-box z-2" type="text" placeholder="Dish" onChange={(e) => this.handleChange(e, 'title')} id="recipe-title"></input>
+              <input className="edit-box z-2" type="text" placeholder="Recipe" onChange={(e) => this.handleChange(e, 'description')} id="recipe-description"></input>
               <button>Submit</button>
             </form>
           </div>
